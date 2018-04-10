@@ -24,5 +24,10 @@ function enterUserRadius (){
     userRadius = Number(userRadius);
 };
 
+var message1 = "Cirumference:" + sphere.calccircumference;
+var message2 = "Area:" + sphere.calcarea;
+var message3 = "Volume" + sphere.volume;
+document.getElementById("results").innerHTML = message1 + message2 + message3;
+
 
 
